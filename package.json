@@ -1,5 +1,5 @@
 {
-  "name": "csv-parser",
+  "name": "@omarelebiary/simple-csv-parser",
   "version": "1.0.0",
   "description": "A Javascript csv parser",
   "main": "CSVParser.js",
@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/OmarElebiary/csv-parser#readme",
   "devDependencies": {
-    "deep-equal": "^1.0.1",
     "jest": "^22.4.3"
   }
 }
