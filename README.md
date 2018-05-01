@@ -6,7 +6,7 @@ A Simple CSV file parser.
 
 ## Usage
 
-Simply instantiate `csv` and put a csv file to it and get the rows out
+Simply instantiate `CSVParser` and put a csv file to it and get the rows out
 
 ### Example
 Let's say that we have a CSV file ``data1.csv`` :
@@ -43,7 +43,7 @@ Output:
     ' STATUS': ' ACTIVE' } ]
 ```
 
-The data emitted is a JSON object. Header is used as the property name of the object.
+The returned data is a JSON object. Header is used as the property name of the object.
 
 The csv constructor accepts the following options
 
