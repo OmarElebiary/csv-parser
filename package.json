@@ -1,0 +1,26 @@
+{
+  "name": "csv-parser",
+  "version": "1.0.0",
+  "description": "A Javascript csv parser",
+  "main": "CSVParser.js",
+  "scripts": {
+    "test": "jest test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmarElebiary/csv-parser.git"
+  },
+  "keywords": [
+    "csv-parser"
+  ],
+  "author": "OmarElebiary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmarElebiary/csv-parser/issues"
+  },
+  "homepage": "https://github.com/OmarElebiary/csv-parser#readme",
+  "devDependencies": {
+    "deep-equal": "^1.0.1",
+    "jest": "^22.4.3"
+  }
+}
