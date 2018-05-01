@@ -2,6 +2,10 @@
 
 A Simple CSV file parser.
 
+```
+npm install @omarelebiary/simple-csv-parser
+```
+
 `csv-parser` can convert CSV into JSON or array.
 
 ## Usage
@@ -21,7 +25,7 @@ John Doe 3, 25, ACTIVE
 You can parse it like this:
 
 ``` js
-const Parser = require('./CSVParser');
+const Parser = require('@omarelebiary/simple-csv-parser');
 let parser = new Parser('test/dataset/data1.csv', {delimiter: ',', headers: true});
 
 parser.parseCSV().then((data) => {
