@@ -8,16 +8,16 @@
 //	   
 //     Options argument:
 //         {
-//         		delimiter: ',' 		// Delimiter used for spliting line values. Default value: ','
-//         		headers: true 		// Use the values of first row as keys in JSON. Default value is false.
-//		   }
+//         	delimiter: ',' 		// Delimiter used for spliting line values. Default value: ','
+//         	headers: true 		// Use the values of first row as keys in JSON. Default value is false.
+//	   }
 //		
 //     Example:
-//	   let parser = new CSVParser('data.csv', {delimiter: ',', headers: false})
-//     parser.parseCSV() // start parsing the given CSV file using provided options and returns the parsed data.
-//     parser.parseCSV().then((data) => {
-//	       console.log(data);
-//     });
+//     	let parser = new CSVParser('data.csv', {delimiter: ',', headers: false})
+//     	parser.parseCSV() // start parsing the given CSV file using provided options and returns the parsed data.
+//     	parser.parseCSV().then((data) => {
+//	    console.log(data);
+//     	});
 //
 // ==========================
 // Created by: Omar Elebiary
